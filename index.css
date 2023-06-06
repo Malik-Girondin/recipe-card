@@ -4,4 +4,35 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffafa;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: purple;
+}
+
+.recipe-card {
+    width: 400px;
+}
+
+.recipe-content {
+    text-align: left;
+}
+
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 6px solid purple;
 }
