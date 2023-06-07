@@ -18,6 +18,7 @@ ul {
 
 h1 {
     color: purple;
+    text-align: center !important;
 }
 
 .recipe-card {
@@ -25,7 +26,7 @@ h1 {
 }
 
 .recipe-content {
-    text-align: left;
+    text-align: center;
 }
 
 .recipe-card h2,
@@ -34,5 +35,15 @@ h1 {
 }
 
 .recipe-card.feature {
-    border: 6px solid purple;
+    border: 5px solid purple;
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.recipe-card a {
+    background-color: rgb(224, 82, 224);
+    color: black;
+    text-decoration: none;
 }
