@@ -1,5 +1,8 @@
 * {
     line-height: 1.5;
+    outline: 1px dotted red;
+    margin; 0;
+    padding; 0;
 }
 
 body {
@@ -18,15 +21,22 @@ ul {
 
 h1 {
     color: purple;
-    text-align: center !important;
+    text-align: center;
 }
 
 .recipe-card {
     width: 400px;
+    margin: 20px;
+    padding: 40px;
 }
 
 .recipe-content {
     text-align: center;
+    padding: 20px;
+}
+
+.p {
+    margin-bottom: 20px;
 }
 
 .recipe-card h2,
@@ -43,7 +53,8 @@ ul li h2 {
 }
 
 .recipe-card a {
-    background-color: rgb(224, 82, 224);
+    background-color: rgb(224, 82, 94);
     color: black;
     text-decoration: none;
 }
+
